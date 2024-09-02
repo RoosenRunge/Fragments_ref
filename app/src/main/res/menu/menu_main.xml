@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.fragments_ref.MainActivity">
+
+    <item
+        android:id="@+id/action_Add_frag2"
+        android:orderInCategory="100"
+        android:title="Add Frag2"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_Remove_frag2"
+        android:orderInCategory="100"
+        android:title="Remove Frag2"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_Find_frag2_by_tag"
+        android:orderInCategory="100"
+        android:title="Find Frag2 by tag"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_Replace_Frag3_Args"
+        android:orderInCategory="100"
+        android:title="Replace Frag2 to Frag3 + args"
+        app:showAsAction="never" />
+
+</menu>
